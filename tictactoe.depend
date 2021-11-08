@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1636384421 source:c:\users\afrim\desktop\tiktaktoe\tictactoe\main.c
+	<stdio.h>
+	<stdlib.h>
+
