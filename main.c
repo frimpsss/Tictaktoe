@@ -42,6 +42,11 @@ int main()
   again2:printf("\n\n\tPress [1] to play again.\n\tPress [2] to exit.\n");
         scanf("\t\t%d", &response);
         if(response == 1){
+              for(int i = 0; i < 3; ++i){
+                    for(int j = 0; j < 3; ++j){
+                        gameIn[i][j] = ' ';
+            }
+            }
             goto start1;
         }
         else if(response == 2){
@@ -77,6 +82,11 @@ int main()
         again1:printf("\n\n\tPress [1] to play again.\n\tPress [2] to exit.\n");
         scanf("\t%d", &response);
         if(response == 1){
+            for(int i = 0; i < 3; ++i){
+                    for(int j = 0; j < 3; ++j){
+                        gameIn[i][j] = ' ';
+            }
+            }
             goto start1;
         }
         else if(response == 2){
